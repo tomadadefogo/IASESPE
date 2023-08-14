@@ -1,31 +1,18 @@
 'use client'
 
+import Modal from './modal/page'
 import Link from 'next/link'
 import Image from 'next/image'
+
 export default function page() {
+
+  
+
   return (
     <>
-    <div className="flex justify-center items-center">
-      <section className="bg-white p-8 w-4/5 shadow-lg rounded-2xl mt-6">
-        <nav className="flex flex-wrap justify-between font-sans">
-          <Link className="mx-2 transition ease-in-out duration-0 hover:duration-300 hover:text-red-800 flex items-center" href="/">
-            <Image
-              src='/ongdoskate.png'
-              alt='logo'
-              width={90}
-              height={90}          
-            />
-          </Link>
-          <Link className="mx-2 transition ease-in-out duration-0 hover:duration-300 hover:text-red-800 flex items-center" href="/">Sobre nós</Link>
-          <Link className="mx-2 transition ease-in-out duration-0 hover:duration-300 hover:text-red-800 flex items-center" href="/">Galeria</Link>
-          <Link className="mx-2 transition ease-in-out duration-0 hover:duration-300 hover:text-red-800 flex items-center" href="/">Seja um Voluntário</Link>
-          <Link className="mx-2 transition ease-in-out duration-0 hover:duration-300 hover:text-red-800 flex items-center" href="/">Mensagens</Link>
-          <Link className="mx-2 transition ease-in-out duration-0 hover:duration-300 hover:text-red-800 flex items-center" href="/">Notícias</Link>
-          <Link className="bg-orange-500 rounded-xl p-6 hover:bg-orange-500 hover:text-white shadow-md flex items-center" href="/">Faça uma doação</Link>
-        </nav>
-      </section>
-    </div>
-    <section className='relative mt-12'>
+     <Modal/>
+   
+    <section id='homeConfig' className='relative mt-12'>
   <div  className="relative">
     <Image
       className="bg-cover w-screen"
@@ -42,7 +29,63 @@ export default function page() {
       </div>
         </div>
 </section>
+<section>
+  <h2 class='text-center text-3xl text-white mt-12'>
+    Últimas notícias
+  </h2>
+  <div class='border border-white mt-6 max-w-[400px] mx-auto'></div>
+</section>
+<section id='fotoConfig' class='mt-12'>
+  <div class="flex justify-between mx-12">
+    <Link href='' class="relative">
+      <Image
+        src="/homefoto.jpeg"
+        alt="Foto 1"
+        width={300}
+        height={500}
+      />
+      <h3 class="absolute bottom-0 left-0 p-2 bg-black bg-opacity-50 text-white hover:bg-red-500">
+        Evento com parceria da SEBRAE atrai centenas de crianças
+      </h3>
+    </Link>
+    <Link href='' class="relative">
+      <Image
+        src="/homefoto.jpeg"
+        alt="Foto 2"
+        width={300}
+        height={500}
+      />
+      <h3 class="absolute bottom-0 left-0 p-2 bg-black bg-opacity-50 text-white hover:bg-red-500">
+        Evento com parceria da SEBRAE atrai centenas de crianças
+      </h3>
+    </Link>
+    <Link href='' class="relative">
+      <Image
+        src="/homefoto.jpeg"
+        alt="Foto 3"
+        width={300}
+        height={500}
+      />
+      <h3 class="absolute bottom-0 left-0 p-2 bg-black bg-opacity-50 text-white hover:bg-red-500">
+        Evento com parceria da SEBRAE atrai centenas de crianças
+      </h3>
+    </Link>
+  </div>
+</section>
+<section>
+  <div class='flex justify-between mx-12'>
+    <div class="w-1/3 relative">
+      <div class='border border-white mt-6'></div>
+    </div>
+    <div class="w-1/3 relative ">
+      <div class='border border-white mt-6'></div>
+    </div>
+    <div class="w-1/3 relative ">
+      <div class='border border-white mt-6'></div>
+    </div>
+  </div>
+</section>
 
-    </>
-  )
+</>
+)
 }
