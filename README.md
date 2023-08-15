@@ -1,34 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# IASESPE - ONG
 
-First, run the development server:
+Este é um projeto especial desenvolvido em parceria com a ONG IASESPE, que tem como objetivo transformar a vida das crianças por meio de atividades educacionais inovadoras e impactantes. Nosso compromisso é proporcionar aprendizado e desenvolvimento, utilizando jogos criativos e aulas de inglês ministradas por dedicados voluntários.
+
+Embora nosso site ainda esteja em fase de produção, ficamos emocionados em compartilhar que a página inicial está pronta e já é possível contribuir com a nossa causa. Qualquer valor doado é valioso e nos ajuda a avançar nesse trabalho que impacta positivamente a vida das crianças que atendemos.
+
+Além de apoiar financeiramente, há outra forma poderosa de nos auxiliar: compartilhando o nosso propósito. Juntos, podemos revitalizar o espaço da IASESPE, um local que infelizmente tem sofrido com as frequentes chuvas e inundações. O comprometimento da equipe da IASESPE, liderada pela incansável Chirley, é admirável e inspirador.
+
+Como alguém que aspira a se tornar um programador, encontrei uma forma de me solidarizar com a missão da IASESPE, contribuindo com minhas habilidades. Convido você a se juntar a nós e fazer a sua parte. Cada gesto de apoio faz diferença. Além disso, ficaremos muito contentes em receber a sua visita em nosso espaço.
+
+Vamos juntos renovar e fortalecer o ambiente da IASESPE, permitindo que as crianças tenham acesso a uma educação de qualidade, independentemente dos desafios que enfrentamos. Sua ajuda e envolvimento são essenciais para o sucesso desse projeto. Contamos com você!
+
+
+## Funcionalidades
+
+- Uso de Rotas.
+- Modal de aviso.
+- SPA
+
+
+## Stack utilizada
+
+Nextjs, tailWind, Cypress
+
+
+## Rodando localmente
+
+Clone o projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+  git clone https://github.com/tomadadefogo/IASESPE
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Entre no diretório do projeto
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+  cd IASESPE/ong-project
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Instale as dependências
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Inicie o servidor
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Licença
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[MIT](https://choosealicense.com/licenses/mit/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## 🔗 Links
+[![linkedin](https://www.linkedin.com/in/pedro-luiz-277055167/)](https://www.linkedin.com/in/pedro-luiz-277055167/)
+
+
