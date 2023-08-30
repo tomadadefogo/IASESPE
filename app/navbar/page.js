@@ -19,7 +19,7 @@ export default function page() {
           <Link className="mx-2 transition ease-in-out duration-0 hover:duration-300 hover:text-red-800 flex items-center" href="/">Seja um Voluntário</Link>
           <Link className="mx-2 transition ease-in-out duration-0 hover:duration-300 hover:text-red-800 flex items-center" href="/">Mensagens</Link>
           <Link className="mx-2 transition ease-in-out duration-0 hover:duration-300 hover:text-red-800 flex items-center" href="/">Notícias</Link>
-          <Link className="bg-[#FF6600] rounded-xl p-6 hover:bg-orange-500 hover:text-white shadow-md flex items-center" href="/">Faça uma doação</Link>
+          <Link className="bg-[#FF6600] rounded-xl p-6 hover:bg-orange-500 hover:text-white shadow-md flex items-center" href="/donation">Faça uma doação</Link>
         </nav>
       </section>
     </div>
